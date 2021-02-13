@@ -1,0 +1,30 @@
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("please enter the below choice:\n1.Book\n2.Pen\n3.Box\n4.Eraser\n5.Pencil\n");
+    scanf("%d",&a);
+    switch(a)
+    {
+        case 1:
+                 printf("price is 45");
+        break;
+        case 2:
+                  printf("price is 20");
+        break;
+        case 3:
+                   printf("price is 100");
+        break;
+        case 4:
+                  printf("price is 5");
+        break;
+        case 5:
+                   printf("price is 10");
+        break;
+        default:
+                 printf("invalid input");
+        break;
+    }
+    return 0;
+}
